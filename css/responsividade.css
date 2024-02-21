@@ -156,10 +156,62 @@
     .location h1 {
       font-size: 0.7em;
     }
+    .location-header{
+      width: 100vw;
+      
+    }
     .location-header p{
       width: 75vw;
     }
+    .location-header img{
+      box-shadow: none;
+    }
     .networks-list img{
       width: 40px;
+      
     }
 }
+@media (max-width: 450px){
+  .header-logo h1{
+    font-size: 1em;
+  }
+  .main-container {
+    padding: 1em 0;
+}
+.main-header h1{
+  
+    font-size: 1em;
+}
+.main-header span{
+    font-size: 0.5em;
+}
+.brands-glass img{
+  width: 42px;
+}
+.products-logo img {
+  width: 250px;
+}
+.products-header {
+  width: 100vw;
+    
+}
+.location-header p{
+  font-size: 1em;
+}
+.products-text p {
+ font-size: 1em;
+ 
+}
+.card-adress {
+  font-size: 0.7em;
+}
+.location-card span {
+  font-size: 0.7em;
+  text-align: center;
+}
+.networks-container h1{
+  font-size: 1.5em;
+}
+
+}
+
