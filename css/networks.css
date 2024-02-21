@@ -1,0 +1,44 @@
+.networks {
+  display: flex;
+  justify-content: center;
+  background-color: #f7a10de3;
+}
+.networks-container {
+  background-color: #e6e4eb62;
+  width: 90vw;
+  margin: 1em;
+  padding-top: 2em;
+  text-align: center;
+  border-radius: 2em;
+}
+.networks-container span {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  font-family: var(--font-secundaria);
+  letter-spacing: 1px;
+}
+.networks-container h1 {
+  text-transform: uppercase;
+  color: #0f0450fb;
+  font-family: var(--font-principal);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.networks-list {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  gap: 5em;
+}
+.networks-list img {
+  width: 50px;
+  border-radius: 1em;
+  transition: 0.2s ease;
+}
+
+.networks-list img:hover {
+  transform: scale(1.2);
+  border: 1px solid #fff;
+}

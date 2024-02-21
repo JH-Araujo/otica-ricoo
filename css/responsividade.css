@@ -1,0 +1,157 @@
+@media (max-width: 1200px) { 
+    .main-container {
+        padding: 4em 0;
+    }
+    .main-header h1{
+        font-size: 1.8em;
+    }
+    .main-header span{
+        font-size: 1.2em;
+    }
+
+    .brands-glass{
+        gap: 3em;
+    }
+    .products-container{
+        gap: 1em;
+    }
+    .products-logo img {
+        width: 400px;
+      }
+      .products-header {
+        padding: 1.5em;
+        gap: 3em;
+        margin-right: 1em;
+      }
+      .products-text p {
+       font-size: 1.3em;
+      }
+      .products-buttons {
+        gap: 1em;
+      }
+      .products-buttons li a {
+        font-size: 1em;
+      }
+      .location h1 {
+        font-size: 0.9em;
+      }
+}
+
+@media (max-width: 968px){
+    .menu-burger {
+        display: flex;
+      }
+      .header-menu{
+        display: none;
+      }
+      .main-container {
+        padding: 3em 0;
+    }
+    .main-header h1{
+        font-size: 1.2em;
+    }
+    .main-header span{
+        font-size: 0.9em;
+    }
+    .brands-glass{
+        gap: 1.5em;
+    }
+    .products-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding: 3em 0;
+      }
+      .products-text p {
+        width: 50vw;
+        font-size: 1.5em;
+       }
+       .location h1 {
+        font-size: 1.2em;
+        line-height: 1.5em;
+      }
+      .location-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3em;
+      }
+      .networks-list img{
+        width: 45px;
+      }
+   
+}
+@media (max-width: 768px){
+  .main-container {
+    padding: 3em 0;
+}
+.main-header h1{
+    font-size: 1.5em;
+}
+.main-header span{
+    font-size: 1em;
+}
+
+.brands-glass{
+    gap: 0.6em;
+}
+
+}
+
+@media (max-width: 650px) {
+    .swiper img{
+        width: 100vw;
+    }
+    .swiper-wrapper{
+        object-fit: cover;
+      }
+      .header-logo h1{
+        font-size: 1.5em;
+      }
+
+
+      .main-container {
+        padding: 2em 0;
+    }
+    .main-header h1{
+        font-size: 1.1em;
+    }
+    .main-header span{
+        font-size: 0.8em;
+    }
+    
+    .brands-glass{
+        gap: 0em;
+    }
+    .brands-glass img{
+      width: 65px;
+    }
+    .products-logo img {
+      width: 350px;
+    }
+    .products-header {
+      padding: 1.5em;
+      gap: 1em;
+      margin: 1em;
+    }
+    .products-text p {
+     font-size: 1.5em;
+     width: 75vw;
+    }
+    .products-buttons {
+      gap: 0.5em;
+    }
+    .products-buttons li a {
+      font-size: 0.8em;
+    }
+    .location h1 {
+      font-size: 0.8em;
+    }
+    .location-header p{
+      width: 75vw;
+    }
+    .networks-list img{
+      width: 40px;
+    }
+}
