@@ -23,6 +23,7 @@ a {
   position: fixed;
   right: 1em;
   bottom: 1em;
+  transition: 0.2s ease;
 }
 
 :root {
